@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+    
+    
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #cac8b9 23%, #e0c3ec 95%);
+    background-size: auto;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+.active:hover{
+    background-color:white;
+    color:black;
+    border-radius: 9px;
+    width: 125px;
+    text-align: center;
+    border: 1px solid black;
+}
+.active1:hover{
+    background-color: #ddd;
+    color:black;
+    border-radius: 9px;
+    width: 125px;
+    text-align: center;
+    border: 1px solid black;
+}
+.active2:hover{
+    background-color: #ddd;
+    color:black;
+    border-radius: 9px;
+    width: 125px;
+    text-align: center;
+    border: 1px solid black;
+}
+.active3:hover{
+    background-color: #ddd;
+    color:black;
+    border-radius: 9px;
+    width: 85px;
+    text-align: center;
+    border: 1px solid black;
+}
+.register-btn:hover{
+    background-color: #999;
+    border-radius: 29px;
+    text-align: center;
+    border: 1px solid black
+
+}
+
+.logo {
+    width: 252px;
+    height: 165px;
+    cursor: pointer;
+}
+
+.nav-link li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.register-btn {
+    background-color: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.register-btn:hover{
+    background-color: beige;
+}
+.sab{
+  
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.bas{
+    width: 120px;
+    height: 60px;
+
+}
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: #1c0c0c;
+}
+.explore{
+  width: 200px;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 20px;
+  
+  border-radius: 15px;
+  
+  display: inline-block;
+  font-family: Georgia, 'Times New Roman';
+  font-size: x-small;
+}
+.main{
+    margin-left: 7.5%;
+}
+.exp{
+    font-size: 50px;
+   
+}
+.now{
+    font-size: x-large;
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    height: 300px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.container .imgBx {
+  position: relative;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: #212121;
+    border-radius: 10px;
+}
+
+.container .imgBx img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.container .details h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.4em;
+    line-height: 1em;
+    color: #444;
+}
+
+.container .details h2 span {
+    font-size: 0.4em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+}
+
+.container .details p {
+    max-width: 85%;
+    margin-left: 15%;
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 36px;
+}
+
+.container .details h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    color: #a2a2a2;
+    float: left;
+}
+.container .details button {
+    background: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    margin-top: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 40px;
+    float: right;
+}
+@media (max-width: 1080px) {
+    .container {
+        height: auto;
+    }
+    .container .imgBx {
+        padding: 40px;
+        box-sizing: border-box;
+        width: 100% ;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+    }
+    .container .imgBx img {
+        left: initial;
+        max-width: 100%;
+    }
+    .details {
+        width: 100% ;
+        height: auto;
+        padding: 20px;
+    }
+    .container .details p {
+        margin-left: 0;
+        max-width: 100%;
+    }
+}
